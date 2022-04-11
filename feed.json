@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "dzidek23&#x27;s github space",
+    "description": "",
+    "home_page_url": "https://github.com/dzidek23",
+    "feed_url": "https://github.com/dzidek23/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "dzidek23"
+    },
+    "items": [
+        {
+            "id": "https://github.com/dzidek23/fortinet-ipsec-vpn-on-linux.html",
+            "url": "https://github.com/dzidek23/fortinet-ipsec-vpn-on-linux.html",
+            "title": "Fortinet IPSEC VPN on Linux",
+            "summary": "/etc/ipsec.secrets 'vpn username' = XAUTH 0s..... 'vpn machine' = PSK 0s..... /etc/ipsec.conf conn fortinet left= leftauth=psk leftid=\"\" leftauth2=xauth xauth_identity=\"vpn username\" leftsourceip=%config right='VPN IP' rightsubnet='Internal IP subnet'/24 rightauth=psk keyexchange=ikev1 aggressive=yes ike=aes128-sha1-modp1536! esp=aes128-sha1-modp1536! auto=add More about IPSec secrets here: https://wiki.strongswan.org/projects/strongswan/wiki/IpsecSecrets",
+            "content_html": "<p>/etc/ipsec.secrets</p>\n<p>'vpn username' = XAUTH 0s.....</p>\n<p>'vpn machine' = PSK 0s.....</p>\n<p>/etc/ipsec.conf</p>\n<p>conn fortinet<br>    left=<br>    leftauth=psk<br>    leftid=\"\"<br>    leftauth2=xauth<br>    xauth_identity=\"vpn username\"<br>    leftsourceip=%config<br>    right='VPN IP'<br>    rightsubnet='Internal IP subnet'/24<br>    rightauth=psk<br>    keyexchange=ikev1<br>    aggressive=yes<br>    ike=aes128-sha1-modp1536!<br>    esp=aes128-sha1-modp1536!<br>    auto=add</p>\n<p>More about IPSec secrets here: <a href=\"https://wiki.strongswan.org/projects/strongswan/wiki/IpsecSecrets\" target=\"_blank\" rel=\"noopener noreferrer\">https://wiki.strongswan.org/projects/strongswan/wiki/IpsecSecrets</a></p>",
+            "author": {
+                "name": "dzidek23"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-04-11T10:59:40+01:00",
+            "date_modified": "2022-04-11T10:59:40+01:00"
+        }
+    ]
+}

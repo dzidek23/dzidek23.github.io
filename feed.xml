@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>dzidek23&#x27;s github space</title>
+    <link href="https://github.com/dzidek23/feed.xml" rel="self" />
+    <link href="https://github.com/dzidek23" />
+    <updated>2022-04-11T10:59:40+01:00</updated>
+    <author>
+        <name>dzidek23</name>
+    </author>
+    <id>https://github.com/dzidek23</id>
+
+    <entry>
+        <title>Fortinet IPSEC VPN on Linux</title>
+        <author>
+            <name>dzidek23</name>
+        </author>
+        <link href="https://github.com/dzidek23/fortinet-ipsec-vpn-on-linux.html"/>
+        <id>https://github.com/dzidek23/fortinet-ipsec-vpn-on-linux.html</id>
+
+        <updated>2022-04-11T10:59:40+01:00</updated>
+            <summary>
+                <![CDATA[
+                    /etc/ipsec.secrets 'vpn username' = XAUTH 0s..... 'vpn machine' = PSK 0s..... /etc/ipsec.conf conn fortinet left= leftauth=psk leftid="" leftauth2=xauth xauth_identity="vpn username" leftsourceip=%config right='VPN IP' rightsubnet='Internal IP subnet'/24 rightauth=psk keyexchange=ikev1 aggressive=yes ike=aes128-sha1-modp1536! esp=aes128-sha1-modp1536! auto=add More about IPSec secrets here: https://wiki.strongswan.org/projects/strongswan/wiki/IpsecSecrets
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>/etc/ipsec.secrets</p>
+<p>'vpn username' = XAUTH 0s.....</p>
+<p>'vpn machine' = PSK 0s.....</p>
+<p>/etc/ipsec.conf</p>
+<p>conn fortinet<br>    left=<br>    leftauth=psk<br>    leftid=""<br>    leftauth2=xauth<br>    xauth_identity="vpn username"<br>    leftsourceip=%config<br>    right='VPN IP'<br>    rightsubnet='Internal IP subnet'/24<br>    rightauth=psk<br>    keyexchange=ikev1<br>    aggressive=yes<br>    ike=aes128-sha1-modp1536!<br>    esp=aes128-sha1-modp1536!<br>    auto=add</p>
+<p>More about IPSec secrets here: <a href="https://wiki.strongswan.org/projects/strongswan/wiki/IpsecSecrets" target="_blank" rel="noopener noreferrer">https://wiki.strongswan.org/projects/strongswan/wiki/IpsecSecrets</a></p>
+            ]]>
+        </content>
+    </entry>
+</feed>
