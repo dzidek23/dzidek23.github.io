@@ -14,13 +14,13 @@
         <author>
             <name>dzidek23</name>
         </author>
-        <link href="https://dzidek23.github.io/fortinet-ipsec-vpn-on-linux.html"/>
-        <id>https://dzidek23.github.io/fortinet-ipsec-vpn-on-linux.html</id>
+        <link href="https://dzidek23.github.io/fortinet-ipsec-vpn-on-linux/"/>
+        <id>https://dzidek23.github.io/fortinet-ipsec-vpn-on-linux/</id>
 
         <updated>2022-04-11T14:38:05+01:00</updated>
             <summary>
                 <![CDATA[
-                    /etc/ipsec.secrets 'vpn username' = XAUTH 0s..... 'vpn machine' = PSK 0s..... /etc/ipsec.conf conn fortinet left= leftauth=psk leftid="" leftauth2=xauth xauth_identity="vpn username" leftsourceip=%config right='VPN IP' rightsubnet='Internal IP subnet'/24 rightauth=psk keyexchange=ikev1 aggressive=yes ike=aes128-sha1-modp1536! esp=aes128-sha1-modp1536! auto=add More about IPSec secrets here: https://wiki.strongswan.org/projects/strongswan/wiki/IpsecSecrets
+                    /etc/ipsec.secrets 'vpn username' = XAUTH 0s..... 'vpn machine' = PSK 0s..... /etc/ipsec.conf conn fortinet left= leftauth=psk leftid="" leftauth2=xauth xauth_identity="vpn username"&hellip;
                 ]]>
             </summary>
         <content type="html">
